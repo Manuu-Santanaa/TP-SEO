@@ -61,10 +61,12 @@ header {
   align-items: center;
   gap: 10px;
 }
+
 .logo-text h1 {
   font-size: 1.5rem;
   line-height: 1;
 }
+
 .logo-text p {
   font-size: 0.7rem;
   font-weight: bold;
@@ -189,9 +191,52 @@ nav a {
   gap: 10rem;
 }
 
+.nosotros-imagen-container {
+  display: flex;
+  justify-content: center;
+}
+
 .nosotros-imagen {
-  margin-right: -1rem;
   border-radius: 1rem;
+  width: 500px;
+}
+
+@media (max-width: 1024px) {
+  .nosotros-imagen {
+    border-radius: 1rem;
+    width: 400px;
+  }
+
+  .nosotros-container {
+  display: grid;
+  padding: 0rem 2rem;
+  gap: 1rem;
+}
+}
+
+@media (max-width: 768px) {
+  .nosotros-imagen {
+    border-radius: 1rem;
+    width: 350px;
+  }
+
+    .nosotros-container {
+  display: grid;
+  padding: 0rem 0.8rem;
+  gap: 1rem;
+}
+}
+
+@media (max-width: 320px) {
+  .nosotros-imagen {
+    border-radius: 1rem;
+    width: 300px;
+  }
+    .nosotros-container {
+  display: grid;
+  padding: 0rem 0.5rem;
+  gap: 1rem;
+}
 }
 
 @media (min-width: 768px) {
@@ -218,6 +263,7 @@ nav a {
   gap: 1.5rem;
   padding: 2rem;
 }
+
 .titulo-card {
   color: var(--dark);
   margin-bottom: 1.5rem;
@@ -297,9 +343,16 @@ form input {
   border-radius: 4px;
 }
 
-.contacto-texto {
+.texto-container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.texto-contacto {
   color: var(--green-dark);
-  margin: 0rem 23.2rem 2rem 23.2rem;
 }
 
 .contacto-links {
