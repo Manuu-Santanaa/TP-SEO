@@ -1,2 +1,2 @@
-Robots *
-Disallow: / /img /css /js/
+User-agent: *
+Disallow: /img/
