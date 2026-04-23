@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>EcoFit | Gimnasio Consciente y Entrenamiento al Aire Libre</title>
+    <meta name="description" content="Entrená en la naturaleza con EcoFit. Gimnasio consciente que une bienestar personal y cuidado del planeta. ¡Sumate hoy!">
+    <meta name="keywords" content="gimnasio, aire libre, entrenamiento consciente, ecofit, fitness naturaleza">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="EcoFit | Gimnasio Consciente">
+    <meta property="og:description" content="Bienestar personal y cuidado del planeta en un solo lugar.">
+    <meta property="og:image" content="img/Logo.png">
+
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <span class="logo-icon">
+                <img class="logo-img" src="img/Logo.png" alt="Logotipo oficial de EcoFit" />
+            </span>
+            <div class="logo-text">
+                <span class="h1-style" style="font-family: 'Bungee'; font-size: 1.5rem; display: block;">ECOFIT</span>
+                <p>GIMNASIO CONSCIENTE</p>
+            </div>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación">
+            ☰
+        </button>
+
+        <nav>
+            <ul id="navMenu">
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#beneficios">BENEFICIOS</a></li>
+                <li><a href="#testimonios">TESTIMONIOS</a></li>
+                <li><a href="#registro">REGISTRO</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <h1>ENTRENÁ AL AIRE LIBRE. VIVÍ MÁS SALUDABLE.
+                    <br>
+                    SUMATE A ECOFIT</h1>
+                <a href="#registro" class="btn-primary">PRIMER SEMANA GRATIS</a>
+            </div>
+        </section>
+
+        <section class="nosotros" id="nosotros">
+            <h2 class="section-title">ECOFIT</h2>
+            <div class="nosotros-container">
+                <div class="nosotros-texto">
+                    <p>EcoFit nació con una convicción clara: el bienestar personal no tiene por qué estar desconectado del bienestar del planeta.</p>
+                    <p>Todo comenzó cuando un grupo de entrenadores y nutricionistas amantes del deporte notaron que los gimnasios tradicionales eran cerrados y poco conscientes.</p>
+                    <p>Así nació EcoFit, una propuesta diferente que reúne actividad física y naturaleza.</p>
+                </div>
+                <div class="nosotros-imagen-container">
+                    <img class="nosotros-imagen" src="img/gente_entrenando_al_aire_libre.png" 
+                         alt="Grupo de personas realizando ejercicios funcionales en un parque verde" 
+                         loading="lazy" width="500">
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficios" id="beneficios">
+            <h2 class="section-title">POR QUÉ DEBES ELEGIRNOS</h2>
+            <div class="cards-container">
+                <article class="card">
+                    <div class="icon" aria-hidden="true">☀️</div>
+                    <h3>ENTRENAMIENTO AL AIRE LIBRE</h3>
+                    <p>Conectá tu cuerpo con la naturaleza en espacios abiertos, sin máquinas ni rutinas monótonas.</p>
+                </article>
+                <article class="card">
+                    <div class="icon" aria-hidden="true">⚙️</div>
+                    <h3>BIENESTAR INTEGRAL</h3>
+                    <p>Sumate a charlas, yoga y actividades que fortalecen tanto tu cuerpo como tu mente.</p>
+                </article>
+                <article class="card">
+                    <div class="icon" aria-hidden="true">✔️</div>
+                    <h3>COMUNIDAD CONSCIENTE</h3>
+                    <p>Entrená con personas que comparten tu estilo de vida saludable y tus valores.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonios" id="testimonios">
+            <h2 class="section-title">NUESTRA COMUNIDAD</h2>
+            <div class="testimonios-list">
+                <blockquote class="testimonio-item">“Me encanta entrenar con EcoFit, me siento parte de algo positivo para mi cuerpo y el planeta.”</blockquote>
+                <blockquote class="testimonio-item">“Una experiencia saludable, diferente y al aire libre.”</blockquote>
+                <blockquote class="testimonio-item">“Cuerpo, mente y planeta alineados. Eso es EcoFit.”</blockquote>
+            </div>
+        </section>
+
+        <section class="registro" id="registro">
+            <div class="form-container">
+                <h2 class="section-title">FORMÁ PARTE DE NOSOTROS</h2>
+                <form id="registroForm">
+                    <label for="nombre">NOMBRE:</label>
+                    <input type="text" id="nombre" name="nombre" required />
+                    
+                    <label for="apellido">APELLIDO:</label>
+                    <input type="text" id="apellido" name="apellido" required />
+                    
+                    <label for="edad">EDAD:</label>
+                    <input type="number" id="edad" name="edad" required />
+                    
+                    <label for="email">EMAIL:</label>
+                    <input type="email" id="email" name="email" required />
+                    
+                    <button type="submit" class="btn-registro" style="margin-top: 20px; width: 100%">
+                        ENVIAR
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <h2 class="section-title">CONTACTO</h2>
+        <div class="contacto-links">
+            <span><img src="img/envelope.svg" alt="Icono de email"> INFORMACION@ECOFIT.COM</span>
+            <span><img src="img/instagram.svg" alt="Icono de Instagram"> @ECOFIT.OFICIAL</span>
+        </div>
+        <div class="copyright">
+            <p>© COPYRIGHT ECOFIT 2025 - TODOS LOS DERECHOS RESERVADOS</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
