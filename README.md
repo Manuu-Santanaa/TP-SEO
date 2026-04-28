@@ -112,6 +112,3 @@ Además, se reforzó la comprensión de cómo pequeños detalles técnicos impac
 
 ## ℹ️ Sobre este proyecto
 Este trabajo fue desarrollado en el marco de la materia **Programación con Entornos de Trabajo**, como parte de una formación académica orientada al desarrollo web profesional.
-
-## 🧱 Estructura del sitio
-El sitio se organiza de forma clara y escalable:
